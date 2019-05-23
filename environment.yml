@@ -1,0 +1,9 @@
+name: optics
+dependencies:
+    - python=3.6
+    - numpy>=1.9.3
+    - matplotlib>=1.4.3
+    - pip
+    - pip:
+        - unwrap
+        - "--editable=git+https://github.com/Sterncat/opticspy.git@master"
